@@ -1,3 +1,5 @@
 pandas
 anthropic
 python-dotenv
+pymupdf4llm
+pymupdf
