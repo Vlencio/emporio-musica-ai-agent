@@ -134,3 +134,9 @@ def get_products(
     if result == "[]":
         return json.dumps({"error": "Nenhum produto encontrado."})
     return result
+
+
+
+TOOLS = [get_order, get_products]
+
+
