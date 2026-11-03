@@ -118,7 +118,7 @@ def get_products(
 
     if conditions:
         base_query += " WHERE " + " AND ".join(conditions)
-    base_query += "ORDER BY p.price_brl"
+    base_query += " ORDER BY p.price_brl"
 
     products_query = base_query
 
