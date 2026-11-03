@@ -1,0 +1,20 @@
+# promo_black_friday (promoções)
+
+**user:** Já começou a Black Friday? Quero o desconto de 30%
+
+**assistant:** Vou verificar no sistema quais promoções estão ativas agora.
+
+*[tool_use]* `get_products` {"in_stock_only": true}
+
+*[tool_result]* [{"product_id":119,"name":"Shelby SU-21S Soprano Sunburst","category":"Ukuleles","description":"Ukulele soprano com acabamento Sunburst e escala em Rosewood. Visual clássico e som alegre para músicos de todos os níveis.","price_brl":159.9,"stock_quantity":8,"status":"active","specs":{"top":"Linden","back_sides":"Linden","neck":"Nato","strings":"nylon","scale":"346mm","electronics":"no","color":"Sunburst"},"promotion":null,"discount_percent":null,"promo_price_brl":null},{"product_id":118,"name":"Kalani KAL-300S Soprano Natural","category":"Ukuleles","description":"Ukulele soprano Kalani com tampo em Spruce e corpo em Sapele. Projeção surpreendente para um instrumento compacto.","price_brl":179.9,"stock_quantity":12,"status":"active","specs":{"top":"Spruce","back_sides":"Sapele","neck":"Nato","strings":"nylon","scale":"346mm","electronics":"no","color":"Natural"},"promotion":null,"discount_percent":null,"promo_price_brl":null},{"product_id":116,"name":"Kala KA-15S Soprano Mogno","category":"Ukuleles","description":"Ukulele soprano Kala com corpo em mogno e cordas Aquila. Som doce e tradicional, perfeito para iniciantes e viajantes.","price_brl":199.9,"stock_quantity":15,"status":"active","specs":{"top":"Mogno","back_sides":"Mogno","neck":"Mogno","strings":"nylon","scale":"346mm","electronics":"no","color":"Natural"},"promotion":null,"discount_percent":null,"promo_price_brl":null},{"product_id":117,"name":"Ohana SK-10 Soprano Natural","category":"Ukuleles","description":"Ukulele soprano Ohana com acabamento acetinado e cordas Aquila. Construção leve e timbre claro, ótimo custo-benefício.","price_brl":249.9,"stock_quantity":10,"status":"active","specs":{"top":"Mogno","back_sides":"Mogno","neck":"Mogno","strings":"nylon","scale":"346mm","electronics":"no","color":"Natural"},"promotion":null,"discount_percent":null,"promo_price_brl":null},{"product_id":120,"name":"Kala KA-C Concert Mogno","category":"Ukuleles","description":"Ukulele concert Kala com corpo em mogno maciço e acabamento acetinado. Escala maior para mais conforto e volume.","price_brl":349.9,"stock_quantity":9,"status":"active","specs":{"top":"Mogno","back_sides":"Mogno","neck":"Mogno","strings":"nylon","scale":"381mm","electronics":"no","color":"Natural"},"promotion":null,"discount_percent":null,"promo_price_brl":null},{"product_id":127,"name":"Kalani KAL-700T Tenor Natural","category":"Ukuleles","description":"Ukulele tenor Kalani com corpo em Sapele e tampo em Spruce. Boa relação custo-benefício para quem busca um instrumento maior.","price_brl":359.0,"stock_quantity":11,"status":"active","specs":{"top":"Spruce","back_sides":"Sapele","neck":"Nato","strings":"nylon","scale":"432mm","electronics":"no","color":"Natural"},"promotion":"Oferta Especial","discount_percent":10,"promo_price_brl":323.1},{"product_id":83,"name":"Tagima Memphis AC-39 Nylon Natural","category":"Violões","description":"Violão clássico com cordas de nylon, perfeito para quem está começando. Corpo leve e confortável pa
+
+**assistant:** Ainda não tem Black Friday ativa no sistema, e não encontrei nenhum produto com 30% de desconto. A campanha costuma acontecer em novembro, mas não tenho a data oficial de 2026. Enquanto isso, estas promoções estão valendo:
+
+- **Ohana CK-20 Concert Natural** (ukulele): de R$ 549,00 por **R$ 439,20** (20% off)
+- **Crafter HT-100 Folk Aço Natural** (violão): de R$ 2.399,00 por **R$ 1.967,18** (18% off)
+- **Taylor 110e Dreadnought Natural** (violão elétrico): de R$ 5.999,00 por **R$ 5.519,08** (8% off)
+- **Kalani KAL-700T Tenor Natural** (ukulele): de R$ 359,00 por **R$ 323,10** (10% off)
+
+Essas promoções não se somam ao desconto de 5% no PIX.
+
+Se quiser, posso verificar um instrumento específico. Para saber sobre a data da Black Friday, fale com a equipe pelo WhatsApp (67) 3321-4500.

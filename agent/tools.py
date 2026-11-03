@@ -128,11 +128,23 @@ def get_products(
         query = f'SELECT json_group_array(json(product_json)) FROM ({products_query})'
         result = con.execute(query, params).fetchone()[0]
 
+        if result == "[]":
+            categories = [row[0] for row in con.execute(
+                """ 
+                SELECT c.name FROM categories c
+                JOIN products p ON p.category_id = c.category_id
+                WHERE p.status = 'active'
+                GROUP BY c.name ORDER BY c.name
+                """
+            )]
+
+            return json.dumps({
+                "error": "nenhum produto encontrado",
+                "available_categories": categories
+            }, ensure_ascii=False)   
+
     finally:
         con.close()
-
-    if result == "[]":
-        return json.dumps({"error": "Nenhum produto encontrado."})
     return result
 
 
