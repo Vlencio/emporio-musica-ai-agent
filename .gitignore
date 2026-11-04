@@ -1,0 +1,7 @@
+.env
+database.db
+__pycache__/
+venv/
+.venv/
+.DS_Store
+pdf/desafio_tecnico_ai_eng_artefact.pdf
